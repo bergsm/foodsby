@@ -1,0 +1,42 @@
+
+<link rel="stylesheet" type = "text/css" href="home.css" />
+<div class="siteOutput">
+<div class="day"><h2>{{day}}</h2></div>
+
+
+{{#each deliveries}}
+<div class="deliveryInfo">
+<div class="restaurantName">{{restaurantName}}</div>
+<br>
+<img class="logo" src="{{logoUrl}}">
+<br>
+<div class="restaurantInfo">
+{{#if soldOut}}
+	<div class="soldOut">Sold Out!</div>
+{{else}}
+<br>
+<div class="dropoff">Delivery Time: <div class="dropoffTime">{{dropoff}}</div></div>
+<br>
+<br>
+<div class="cutoff">Order By: <div class="cutoffTime">{{cutoff}}</div></div>
+<br><br><br><br>
+<button class="orderButton">Select Restaurant</button><br>
+{{#if sellingOut}}
+	<div class="hurry">Hurry! Only a few meals left!</div>
+{{/if}}
+{{/if}}
+
+
+
+</div>
+</div>
+
+<br>
+<hr>
+{{/each}}
+{{#if deliveries}}
+{{else}}
+<div class="nodeliveries">No deliveries today :(</div>
+{{/if}}
+</div>
+

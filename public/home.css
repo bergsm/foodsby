@@ -1,0 +1,103 @@
+.day
+{
+	margin: auto;
+	width: 10%;
+	text-decoration: underline;
+
+}
+.restaurantInfo
+{
+	color: black;
+	height: 200px;
+
+
+}
+.deliveryInfo
+{
+	margin: auto;
+	width: 100%;
+}
+.siteOutput
+{
+	margin: auto;
+	width: 100%;
+}
+.logo
+{
+	float: left;
+	padding: 20px;
+}
+.dropoff
+{
+	float: right;
+}
+.cutoff
+{
+	float: right;
+}
+
+.restaurantName
+{
+	float: left;
+	font-weight: bold;
+}
+
+
+.dropoffTime
+{
+	float: right;
+	width: 60px;
+	text-align: center;
+	border: 1px;
+	border-color: black;
+	border-style: solid;
+}
+.cutoffTime
+{
+	float: right;
+	width: 60px;
+	text-align: center;
+	border: 1px;
+	border-color: black;
+	border-style: solid;
+}
+
+.line
+{
+	color: red;
+}
+
+.orderButton
+{
+	color: white;
+	background-color: red;
+}
+
+.soldOut
+{
+	margin: auto;
+	font-size: x-large;
+	font-weight: bolder;
+	float: right;
+	height: 100px;
+	width: 198px;
+}
+
+.orderButton
+{
+	float: right;
+}
+
+.hurry
+{
+	float: right;
+}
+
+.nodeliveries
+{
+	margin: auto;
+	text-align: center;
+	font-size: xx-large;
+	font-weight: bolder;
+}
+
